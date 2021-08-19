@@ -1,25 +1,16 @@
-# Cobol
+# Sistemas de Controle de Associados, Contas a Pagar / Receber e Controle de TKTS Aéreos
 
 ## Contexto
-Essa estação tem o objetivo de prover dados meteorológico para automação de um observatório astronômico. Através de sensores de temperatura, umidade, bârometro, UV, CO2, chuva e luminosidade. Os dados podem ser acessados através de um mini web server que disponibiliza uma API REST
+Os sistemas foram desenvolvidos para ABAV - Associação Brasileira de Agências de Viagens para adminastrar as rotinas diárias da entidade de classe e controle passagens aéreas nos balcões dos aeroportos de Congonhas e Guarulhos.
 
 ## Tecnologia usada
 
 Desenvolvimento:
-> Projeto foi desenvolvido utilizando um microcontrolador Arduino Mega e uma interface ethernet.  O sistema fica em stand by aguardando uma requisição, para fazer a medição e envio dos dados
+> O projeto foi todo escrito em linguaguem Cobol em conjunto com a biblioteca Extend e compilaldo com a versão 4.5 do MS - Cobol. 
 
-> A API retorna os dados como um objeto JSON no seguinte formato.
+> Escrevi a biblioteca Extend em linguagem C para adicionr algumas funções inexistentes em Cobol.
 
-```json
-{
-  "temperaturaExterna": 21.00,
-  "umidade": 51.00,
-  "pressao": 949.67,
-  "altitude": 543.35,
-  "temperaturaInterna": 21.72,
-  "uv": 0,
-  "co2": 8,
-  "chuva": 0,
-  "chuvaNivel": 0,
-  "luminosidade": 53
-}
+* Item 1
+* Item 2
+* Item 2a
+* Item 2b
